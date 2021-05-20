@@ -1,12 +1,29 @@
 package personas;
 
 public class persona1 {
-	private String marca; //yo puedo decidir si un parametro de una clase es publico o privado
-	private String modelo;
-	private int velocidadMaxima;
-	private int velocidadActual=0;
-	private boolean encendido;
-	private String patente;
-	private String color;
-
+	private String nombre;
+	private String apellido;
+	private int dni;
+	private int edad;
+	private float altura;
+	private float peso;
+	
+	public persona1(String nombre, String apellido,int dni,int edad,float altura,float peso) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.dni = dni;
+		this.edad = edad;
+		this.altura = altura;
+		this.peso = peso;
+		}
+	
+	public void caminar() {
+		
+	}
+	public void sentar() {
+		
+	}
+	public void parar() {
+		
+	}
 }
