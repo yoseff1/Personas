@@ -1,6 +1,6 @@
 package principal;
 
-import personas.persona1;
+import personas.Persona1;
 
 public class Principal {
 

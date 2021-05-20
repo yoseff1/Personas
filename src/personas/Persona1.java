@@ -1,6 +1,6 @@
 package personas;
 
-public class persona1 {
+public class Persona1 {
 	private String nombre;
 	private String apellido;
 	private int dni;
@@ -8,7 +8,7 @@ public class persona1 {
 	private float altura;
 	private float peso;
 	
-	public persona1(String nombre, String apellido,int dni,int edad,float altura,float peso) {
+	public Persona1(String nombre, String apellido,int dni,int edad,float altura,float peso) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.dni = dni;
