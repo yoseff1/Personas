@@ -9,12 +9,12 @@ public class Persona1 {
 	private int peso;
 	
 	public Persona1(String nombre, String apellido,String dni,int edad,int altura,int peso) {
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.dni = dni;
-		this.edad = edad;
-		this.altura = altura;
-		this.peso = peso;
+		this.setNombre(nombre);
+		this.setApellido(apellido);
+		this.setDni(dni);
+		this.setEdad(edad);
+		this.setAltura(altura);
+		this.setPeso(peso);
 		}
 	
 	public void caminar() {
@@ -26,4 +26,52 @@ public class Persona1 {
 	public void parar() {
 		System.out.println("se detiene");
 		}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public String getDni() {
+		return dni;
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public int getAltura() {
+		return altura;
+	}
+
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
+
+	public int getPeso() {
+		return peso;
+	}
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
 }
