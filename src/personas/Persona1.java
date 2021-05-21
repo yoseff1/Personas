@@ -3,12 +3,12 @@ package personas;
 public class Persona1 {
 	private String nombre;
 	private String apellido;
-	private int dni;
+	private String dni;
 	private int edad;
 	private float altura;
-	private float peso;
+	private int peso;
 	
-	public Persona1(String nombre, String apellido,int dni,int edad,float altura,float peso) {
+	public Persona1(String nombre, String apellido,String dni,int edad,float altura,int peso) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.dni = dni;
