@@ -5,10 +5,10 @@ public class Persona1 {
 	private String apellido;
 	private String dni;
 	private int edad;
-	private float altura;
+	private int altura;
 	private int peso;
 	
-	public Persona1(String nombre, String apellido,String dni,int edad,float altura,int peso) {
+	public Persona1(String nombre, String apellido,String dni,int edad,int altura,int peso) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.dni = dni;
@@ -18,12 +18,12 @@ public class Persona1 {
 		}
 	
 	public void caminar() {
-		
-	}
+		System.out.println("Empieza a caminar");
+		}
 	public void sentar() {
-		
-	}
+		System.out.println("se sienta");
+		}
 	public void parar() {
-		
-	}
+		System.out.println("se detiene");
+		}
 }
